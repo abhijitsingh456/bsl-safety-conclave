@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-
 <html lang="en">
+
 <head>
-<meta charset="utf-8"/>
-<title>Safety Conclave 2025 – "अरिष्ट: Towards Zero Harm"</title>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<!-- Bootstrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
-<!-- AOS Animation Library -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;family=Open+Sans&amp;display=swap" rel="stylesheet"/>
-<!-- Bootstrap Icons -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
-<style>
+  <meta charset="utf-8" />
+  <title>Safety Conclave 2025 – "अरिष्ट: Towards Zero Harm"</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <style>
     html {
       scroll-behavior: smooth;
     }
@@ -25,15 +22,19 @@
       padding: 0;
     }
 
-    h1, h2, h3, h4, h5 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
       font-family: 'Poppins', sans-serif;
     }
 
     .hero {
       position: relative;
       height: 100vh;
-      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-        url('https://sailcareers.com/SliderImage/1.jpg') center/cover no-repeat;
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('https://bslkavach.sailbsl.in/Content/images/login.jpg') center/cover no-repeat;
       color: white;
       text-align: center;
       display: flex;
@@ -94,31 +95,31 @@
     }
 
     @keyframes bounce {
-      0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-      40% { transform: translateY(8px); }
-      60% { transform: translateY(4px); }
+
+      0%,
+      20%,
+      50%,
+      80%,
+      100% {
+        transform: translateY(0);
+      }
+
+      40% {
+        transform: translateY(8px);
+      }
+
+      60% {
+        transform: translateY(4px);
+      }
     }
 
     .main-content {
       background: url('https://www.transparenttextures.com/patterns/white-wall-3.png');
       background-color: #f9f9f9;
-      background-repeat: repeat;
-      background-size: auto;
     }
 
     .info-section {
       padding: 80px 20px;
-    }
-
-    .info-section h2 {
-      text-align: center;
-      font-weight: bold;
-      margin-bottom: 50px;
-    }
-
-    .about-text {
-      font-size: 1rem;
-      color: #333;
     }
 
     .custom-card-title {
@@ -128,13 +129,18 @@
       margin-bottom: 20px;
     }
 
+    .about-text {
+      font-size: 1rem;
+      color: #333;
+    }
+
     .event-card {
       background: #f8f9fa;
       border: none;
       border-radius: 15px;
       padding: 30px;
       text-align: center;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
       transition: transform 0.3s ease;
     }
 
@@ -148,24 +154,8 @@
       margin-bottom: 15px;
     }
 
-    .event-card h5 {
-      font-size: 1.3rem;
-      margin-bottom: 10px;
-      font-weight: bold;
-    }
-
-    .event-card p {
-      margin-bottom: 0;
-      color: #555;
-    }
-
     .speakers-section {
       padding: 60px 20px;
-    }
-
-    .speakers-section h2 {
-      text-align: center;
-      margin-bottom: 40px;
     }
 
     .speaker-card {
@@ -183,219 +173,433 @@
       padding: 20px 10px;
       margin-top: 40px;
     }
+
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .schedule-item {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+      background: #ffffff;
+      border-left: 5px solid #007BFF;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+      border-radius: 10px;
+    }
+
+    .schedule-item .time {
+      font-weight: bold;
+      min-width: 150px;
+      color: #007BFF;
+    }
+
+    .schedule-item .details h5 {
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+
+    .schedule-item.break {
+      border-left-color: #28a745;
+      background: #e6f4ea;
+    }
+
+    .schedule-item.highlight {
+      border-left-color: #ffc107;
+      background: #fff8e1;
+    }
   </style>
 </head>
+
 <body>
-<!-- Hero Section -->
-<section class="hero">
-<div class="top-right-menu">
-<a href="#about-us">About</a>
-<a href="#speakers">Speakers</a>
-<a href="#schedule">Schedule</a>
-<a href="#contact">Contact</a>
-</div>
-<div class="container">
-<img alt="SAIL Logo" class="logo" data-aos="fade-down" src="./Steel_Authority_of_India_logo_white.svg"/>
-<h1 data-aos="fade-up">सेल/बोकारो स्टील प्लांट</h1>
-<h1 data-aos="fade-up">अरिष्ट: Towards Zero Harm</h1>
-<p class="lead" data-aos="fade-up" data-aos-delay="100">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="top-right-menu">
+      <a href="#about-us">About</a>
+      <a href="#speakers">Speakers</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#invitees">Invitees</a>
+      <a href="./register.html">Register</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="container">
+      <img alt="SAIL Logo" class="logo" data-aos="fade-down" src="./Organization Logos/Steel_Authority_of_India_logo_white.svg" />
+      <h1 data-aos="fade-up">सेल/बोकारो स्टील प्लांट</h1>
+      <h1 data-aos="fade-up">अरिष्ट: Towards Zero Harm</h1>
+      <p class="lead" data-aos="fade-up" data-aos-delay="100">
         Digital Innovation Technologies for Enhanced Safety in Integrated Steel Plants for Viksit Bharat
       </p>
-<div class="timer" id="countdown"></div>
-<a class="scroll-down-btn" data-aos="fade-up" data-aos-delay="300" href="#about-us">
-<i class="bi bi-chevron-double-down"></i>
-</a>
-</div>
-</section>
-<!-- Main Content with Texture -->
-<div class="main-content">
-<!-- About Us Section -->
-<section class="info-section" id="about-us">
-<div class="container">
-<h2 data-aos="fade-up">About Us</h2>
-<div class="row mt-4 align-items-stretch">
-<div class="col-md-6 mb-4" data-aos="fade-right">
-<div class="p-4 bg-light rounded shadow-sm h-100 about-text">
-<h4 class="custom-card-title">Who We Are</h4>
-<p>
-                The Safety Conclave 2025 is being organized by the <strong>Safety Engineering Department of SAIL Bokaro Steel Plant</strong>.
-                As a key unit of the Steel Authority of India Limited (SAIL), Bokaro Steel Plant is committed to promoting safety, 
-                innovation, and operational excellence in the steel industry.
-              </p>
-<p>
-                Our department has long championed a proactive approach to workplace safety and health, implementing 
-                advanced protocols and fostering a culture of continuous improvement and responsibility.
-              </p>
-</div>
-</div>
-<div class="col-md-6 mb-4" data-aos="fade-left">
-<div class="p-4 bg-light rounded shadow-sm h-100 about-text">
-<h4 class="custom-card-title">Why "अरिष्ट"</h4>
-<p>
-                "अरिष्ट" (Arisht), meaning 'without harm', symbolizes our vision for a future with <strong>Zero Harm</strong>. 
-                It reflects our mission to embrace digital innovation and transformative technologies that can enhance 
-                safety practices across integrated steel plants.
-              </p>
-<p>
-                This conclave serves as a collaborative platform to share ideas, showcase advancements, and align industry efforts 
-                with the national goal of a <em>Viksit Bharat</em>. Together, we strive to set new benchmarks in safety excellence.
-              </p>
-</div>
-</div>
-</div>
-<!-- Focus Areas -->
-<div class="mt-5" data-aos="fade-up">
-<h3 class="text-center mb-4" style="font-style: italic; font-family: 'Poppins', sans-serif;">Focus Areas</h3>
-<div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-3 justify-content-center text-center">
-<div class="col"><div class="p-3 bg-light rounded shadow-sm h-100"><i class="bi bi-cpu-fill fs-2 text-primary mb-2"></i><div class="small">AI/ML Tools</div></div></div>
-<div class="col"><div class="p-3 bg-light rounded shadow-sm h-100"><i class="bi bi-broadcast-pin fs-2 text-primary mb-2"></i><div class="small">Industrial IoT</div></div></div>
-<div class="col"><div class="p-3 bg-light rounded shadow-sm h-100"><i class="bi bi-airplane-fill fs-2 text-primary mb-2"></i><div class="small">Drone Inspection</div></div></div>
-<div class="col"><div class="p-3 bg-light rounded shadow-sm h-100"><i class="bi bi-diagram-3-fill fs-2 text-primary mb-2"></i><div class="small">Digital Twin</div></div></div>
-<div class="col"><div class="p-3 bg-light rounded shadow-sm h-100"><i class="bi bi-graph-up-arrow fs-2 text-primary mb-2"></i><div class="small">Analytics</div></div></div>
-<div class="col"><div class="p-3 bg-light rounded shadow-sm h-100"><i class="bi bi-vr fs-2 text-primary mb-2"></i><div class="small">VR/AR Safety</div></div></div>
-<div class="col"><div class="p-3 bg-light rounded shadow-sm h-100"><i class="bi bi-smartwatch fs-2 text-primary mb-2"></i><div class="small">Smart PPE</div></div></div>
-<div class="col"><div class="p-3 bg-light rounded shadow-sm h-100"><i class="bi bi-fire fs-2 text-primary mb-2"></i><div class="small">AI &amp; Fire Safety</div></div></div>
-</div>
-</div>
-</div>
-</section>
-<!-- Event Highlights -->
-<section class="info-section" id="about">
-<div class="container">
-<h2 data-aos="fade-up">Event Highlights</h2>
-<div class="row justify-content-center mt-4">
-<div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
-<div class="event-card">
-<div class="event-icon"><i class="bi bi-people-fill"></i></div>
-<h5>Organized By</h5>
-<p>Safety Engineering Department, SAIL Bokaro Steel Plant</p>
-</div>
-</div>
-<div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
-<div class="event-card">
-<div class="event-icon"><i class="bi bi-calendar-event-fill"></i></div>
-<h5>Date</h5>
-<p>06th – 07th August, 2025</p>
-</div>
-</div>
-<div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
-<div class="event-card">
-<div class="event-icon"><i class="bi bi-geo-alt-fill"></i></div>
-<h5>Venue</h5>
-<p>HR-L&amp;D Centre, Bokaro Steel Plant</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Speakers Section -->
-<section class="speakers-section" id="speakers">
-<div class="container">
-<h2 data-aos="fade-up">Speakers</h2>
-<div class="row">
-<div class="col-md-4" data-aos="fade-right">
-<div class="speaker-card">
-<h5>Speaker Name 1</h5>
-<p>Title / Affiliation</p>
-</div>
-</div>
-<div class="col-md-4" data-aos="fade-up">
-<div class="speaker-card">
-<h5>Speaker Name 2</h5>
-<p>Title / Affiliation</p>
-</div>
-</div>
-<div class="col-md-4" data-aos="fade-left">
-<div class="speaker-card">
-<h5>Speaker Name 3</h5>
-<p>Title / Affiliation</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-<!-- Schedule Section -->
+      <div class="timer" id="countdown"></div>
+      <a class="scroll-down-btn" data-aos="fade-up" data-aos-delay="300" href="#about-us">
+        <i class="bi bi-chevron-double-down"></i>
+      </a>
+    </div>
+  </section>
 
-<!-- Footer -->
+  <!-- Main Content -->
+  <div class="main-content">
+    <!-- About Us Section -->
+    <section class="info-section" id="about-us">
+      <div class="container">
+        <h2 class="text-center mb-5" data-aos="fade-up">About Us</h2>
+        <div class="mt-4" data-aos="fade-right">
+          <div class="p-4 bg-light rounded shadow-sm about-text mb-4">
+            <h4 class="custom-card-title">Who We Are</h4>
+            <p>Bokaro Steel Plant (BSL), a premier unit of the Steel Authority of India Limited (SAIL),
+              stands as a testament to India's industrial prowess. Strategically located in Bokaro, Jharkhand,
+              BSL is renowned for its state-of-the-art infrastructure, diverse product range, and commitment to
+              excellence in steel production.</p>
+            <p>Conceived in the late 1950s, the Bokaro Steel Plant was established in collaboration with the former
+              Soviet Union.
+              Incorporated as a limited company in 1964, it became a part of SAIL in 1978. BSL is recognized as India's
+              first 'Swadeshi'
+              steel plant, emphasizing indigenous development in equipment, materials, and know-how.</p>
+          </div>
+        </div>
+        <div data-aos="fade-left">
+          <div class="p-4 bg-light rounded shadow-sm about-text">
+            <h4 class="custom-card-title">Why "अरिष्ट"</h4>
+            <p>The integrated steel industry plays a crucial role in the economic development of any nation,
+              especially in the context of the vision of "Viksit Bharat" (Developed India).
+              However, this industry also faces several challenges, particularly in terms of maintaining safety
+              standards,
+              managing the complex production processes, and ensuring sustainability. The application of Digital
+              Innovation
+              technologies offers transformative solutions to address these challenges. The safety of workers,
+              equipment,
+              and the environment is of paramount importance in such high-risk industries.</p>
+            <p>The theme of this conclave—“Smart, Safe, and Sustainable Safety of Integrated Steel Plants with Digital
+              Innovation
+              Technologies towards Viksit Bharat”—focuses on how advanced digital tools and technologies can be
+              leveraged to create smarter,
+              safer, and more sustainable steel plants. This concept aims to reduce man-machine intervention, enhancing
+              operational efficiency,
+              safety protocols, and sustainability initiatives.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- Schedule Section -->
-<section class="info-section main-content" id="schedule">
-<div class="container" data-aos="fade-up">
-<h2 class="text-center mb-5">Event Schedule</h2>
-<ul class="nav nav-tabs justify-content-center mb-4" id="scheduleTabs" role="tablist">
-<li class="nav-item" role="presentation">
-<button aria-controls="day1" aria-selected="true" class="nav-link active" data-bs-target="#day1" data-bs-toggle="tab" id="day1-tab" role="tab" type="button">06th August</button>
-</li>
-<li class="nav-item" role="presentation">
-<button aria-controls="day2" aria-selected="false" class="nav-link" data-bs-target="#day2" data-bs-toggle="tab" id="day2-tab" role="tab" type="button">07th August</button>
-</li>
-</ul>
-<div class="tab-content" id="scheduleTabsContent">
-<!-- Day 1 Content -->
-<div aria-labelledby="day1-tab" class="tab-pane fade show active" id="day1" role="tabpanel">
-<div class="card shadow-sm border-0 mb-4">
-<div class="card-body">
-<ul class="list-group list-group-flush">
-<li class="list-group-item"><strong>09:00 AM</strong> – Inaugural Ceremony <br/><small>By Plant Director</small></li>
-<li class="list-group-item"><strong>10:00 AM</strong> – Keynote Address <br/><small>Dr. R. Kumar, Ministry of Steel</small></li>
-<li class="list-group-item"><strong>11:00 AM</strong> – Technical Session I: AI in Safety <br/><small>Mr. A. Sen, Tata Steel</small></li>
-<li class="list-group-item"><strong>01:00 PM</strong> – Lunch Break</li>
-<li class="list-group-item"><strong>02:00 PM</strong> – Panel Discussion: IoT &amp; Automation <br/><small>Moderated by Ms. P. Singh, JSW</small></li>
-<li class="list-group-item"><strong>04:00 PM</strong> – Networking &amp; Tea</li>
-</ul>
-</div>
-</div>
-</div>
-<!-- Day 2 Content -->
-<div aria-labelledby="day2-tab" class="tab-pane fade" id="day2" role="tabpanel">
-<div class="card shadow-sm border-0 mb-4">
-<div class="card-body">
-<ul class="list-group list-group-flush">
-<li class="list-group-item"><strong>09:30 AM</strong> – Technical Session II: Digital Twin <br/><small>Mr. V. Mehra, SAIL R&amp;D</small></li>
-<li class="list-group-item"><strong>11:00 AM</strong> – Case Studies: Smart PPE <br/><small>Presented by Plant Safety Team</small></li>
-<li class="list-group-item"><strong>12:30 PM</strong> – Lunch Break</li>
-<li class="list-group-item"><strong>01:30 PM</strong> – Workshop: AR/VR Safety Apps <br/><small>Hands-on session with VRX India</small></li>
-<li class="list-group-item"><strong>03:30 PM</strong> – Valedictory Function <br/><small>Mr. D. Roy, CEO Bokaro Steel</small></li>
-<li class="list-group-item"><strong>04:30 PM</strong> – Certificate Distribution</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<footer id="contact">
+    <!-- Event Highlights -->
+    <section class="info-section" id="about">
+      <div class="container">
+        <h2 class="text-center mb-5" data-aos="fade-up">Event Highlights</h2>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="event-card">
+              <div class="event-icon"><i class="bi bi-people-fill"></i></div>
+              <h5>Organized By</h5>
+              <p>SAIL Bokaro Steel Plant</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="event-card">
+              <div class="event-icon"><i class="bi bi-calendar-event-fill"></i></div>
+              <h5>Date</h5>
+              <p>06th – 07th August, 2025</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="event-card">
+              <div class="event-icon"><i class="bi bi-geo-alt-fill"></i></div>
+              <h5>Venue</h5>
+              <p>HR-L&D Centre, Bokaro Steel Plant</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section class="speakers-section" id="speakers">
+      <div class="container" data-aos="fade-up">
+        <h2 class="text-center mb-5">Speakers</h2>
+        <div class="row">
+          <div class="col-md-4" data-aos="fade-right">
+            <div class="speaker-card">
+              <h5>Dr. Ravindra P. Bhave</h5>
+              <p>Director (Industrial Hygiene)</p>
+              <p>Head of Office/REGIONAL LABOUR INSTITUTE (Kolkata)</p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="speaker-card">
+              <h5>Shri Jagdish</h5>
+              <p>Head (Operations & Technical)</p>
+              <p>Fire Engineering Research Laboratory, IIT (Gandhinagar)</p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-left">
+            <div class="speaker-card">
+              <h5>Shri OB Krishna</h5>
+              <p>Adani Chair Professor</p>
+              <p>Centre of Excellence in Safety Engineering and Analytics (CoE-SEA), IIT (Kharagpur)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="info-section main-content" id="schedule">
+      <div class="container" data-aos="fade-up">
+        <h2 class="text-center mb-5">📅 Event Schedule</h2>
+
+        <ul class="nav nav-tabs justify-content-center mb-4" id="scheduleTabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="day1-tab" data-bs-toggle="tab" data-bs-target="#day1" type="button"
+              role="tab" aria-controls="day1" aria-selected="true">
+              06th August
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="day2-tab" data-bs-toggle="tab" data-bs-target="#day2" type="button" role="tab"
+              aria-controls="day2" aria-selected="false">
+              07th August
+            </button>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="scheduleTabsContent">
+          <!-- Day Template Start -->
+          <div class="tab-pane fade show active" id="day1" role="tabpanel" aria-labelledby="day1-tab">
+            <div class="timeline">
+              <!-- Timeline Entry -->
+              <div class="schedule-item">
+                <span class="time">09:00 – 10:00 AM</span>
+                <div class="details">
+                  <h5>Registration & Batch Distribution</h5>
+                  <p class="text-muted"></p>
+                </div>
+              </div>
+              <div class="schedule-item">
+                <span class="time">10:00 – 01:00 PM</span>
+                <div class="details">
+                  <h5>Inauguration Ceremony</h5>
+                  <ul class="list-unstyled small ps-3">
+                    <li>Welcome Speech – <em>CGM (Safety & Fire Services)</em></li>
+                    <li>Deep Lighting</li>
+                    <li>Addresses by Guests</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="schedule-item break">
+                <span class="time">11:00 – 11:30 AM</span>
+                <div class="details">
+                  <h5>High Tea ☕</h5>
+                </div>
+              </div>
+              <div class="schedule-item">
+                <span class="time">11:30 – 12:00 Noon</span>
+                <div class="details">
+                  <h5>Session I</h5>
+                  <div class="text-muted">Topic: Enhancing Day-to-Day Safety in Integrated Steel Plants through Digital Innovation Technologies</div>
+                  <div class="text-muted">Speaker: </div>
+                </div>
+              </div>
+              <div class="schedule-item">
+                <span class="time">12:00 – 12:30 PM</span>
+                <div class="details">
+                  <h5>Presentation and deliberation - 1</h5>
+                  <p class="text-muted">SAIL Bokaro Steel Plant</p>
+                </div>
+              </div>
+              <div class="schedule-item">
+                <span class="time">12:30 – 01:00 PM</span>
+                <div class="details">
+                  <h5>Exhibition Visit</h5>
+                </div>
+              </div>
+              <div class="schedule-item break">
+                <span class="time">01:00 – 02:30 PM</span>
+                <div class="details">
+                  <h5>Lunch Break 🍽️</h5>
+                </div>
+              </div>
+              <div class="schedule-item">
+                <span class="time">02:30 – 03:00 PM</span>
+                <div class="details">
+                  <h5>Session II</h5>
+                  <div class="text-muted">Topic: </div>
+                  <div class="text-muted">Speaker: </div>
+                </div>
+              </div>
+              <div class="schedule-item">
+                <span class="time">03:00 – 03:30 PM</span>
+                <div class="details">
+                  <h5>Presentation and deliberation - 2</h5>
+                  <p class="text-muted">M/s TATA Steel</p>
+                </div>
+              </div>
+              <div class="schedule-item">
+                <span class="time">03:30 – 04:00 PM</span>
+                <div class="details">
+                  <h5>Session III</h5>
+                  <div class="text-muted">Topic: </div>
+                  <div class="text-muted">Speaker: </div>
+                </div>
+              </div>
+              <div class="schedule-item break">
+                <span class="time">04:00 – 04:30 PM</span>
+                <div class="details">
+                  <h5>Tea/ Coffee Break</h5>
+                </div>
+              </div>
+              <div class="schedule-item">
+                <span class="time">04:30 – 05:00 PM</span>
+                <div class="details">
+                  <h5>Presentation and deliberation - 3</h5>
+                  <p class="text-muted">M/s Arcelor Mittal Nippon Steel</p>
+                </div>
+              </div>
+              <div class="schedule-item">
+                <span class="time">05:00 – 05:30 PM</span>
+                <div class="details">
+                  <h5>Presentation and deliberation - 4</h5>
+                  <p class="text-muted">M/s JSW Steel Plant</p>
+                </div>
+              </div>
+              <div class="schedule-item break">
+                <span class="time">05:30 – 06:00 PM</span>
+                <div class="details">
+                  <h5>Closing & High Tea</h5>
+                </div>
+              </div>
+              <div class="schedule-item highlight">
+                <span class="time">07:00 – 10:00 PM</span>
+                <div class="details">
+                  <h5>Cultural Night 🎭</h5>
+                  <p class="text-muted">Celebrate with performances and networking</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Repeat similar structure for Day 2 -->
+          <div class="tab-pane fade" id="day2" role="tabpanel" aria-labelledby="day2-tab">
+            <div class="timeline">
+              <div class="schedule-item">
+                <span class="time">09:00 – 09:30 AM</span>
+                <div class="details">
+                  <h5>Registration</h5>
+                </div>
+              </div>
+              <div class="schedule-item">
+                <span class="time">09:30 – 10:00 AM</span>
+                <div class="details">
+                  <h5>Session IV</h5>
+                  <div class="text-muted">Topic: </div>
+                  <div class="text-muted">Speaker: </div>                  
+                </div>
+              </div>
+              <div class="schedule-item">
+                <span class="time">10:00 – 10:30 AM</span>
+                <div class="details">
+                  <h5>Presentation and deliberation - 4</h5>
+                  <p class="text-muted">Project Safety – M/s M N DASTUR & CO</p>
+                </div>
+              </div>
+              <div class="schedule-item">
+                <span class="time">10:30 – 11:00 AM</span>
+                <div class="details">
+                  <h5>Program – मन की बात</h5>
+                </div>
+              </div>
+              <div class="schedule-item break">
+                <span class="time">11:00 – 11:30 AM</span>
+                <div class="details">
+                  <h5>High Tea</h5>
+                </div>
+              </div>
+              <div class="schedule-item highlight">
+                <span class="time">11:30 AM – 01:00 PM</span>
+                <div class="details">
+                  <h5>Closing Session & Memento Distribution 🎁</h5>
+                </div>
+              </div>
+              <div class="schedule-item break">
+                <span class="time">01:00 – 02:30 PM</span>
+                <div class="details">
+                  <h5>Lunch Break</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Invitees Section -->
+    <section class="info-section" id="invitees">
+      <div class="container">
+        <h2 class="text-center mb-5" data-aos="fade-up">Our Esteemed Invitees</h2>
+        <div id="inviteeCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner text-center">
+            <div class="carousel-item active">
+              <img src="./Organization Logos/SAIL.png" class="d-inline-block mx-3" alt="Invitee 3"
+                style="height: 100px;">
+              <img src="./Organization Logos/AMNS.jpg" class="d-inline-block mx-3" alt="Invitee 1"
+                style="height: 100px;">
+              <img src="./Organization Logos/Bhushan Power & Steel.png" class="d-inline-block mx-3" alt="Invitee 2"
+                style="height: 100px;">
+              <img src="./Organization Logos/JSW.png" class="d-inline-block mx-3" alt="Invitee 4"
+                style="height: 100px;">
+              <img src="./Organization Logos/Mecon.png" class="d-inline-block mx-3" alt="Invitee 5"
+                style="height: 100px;">
+            </div>
+            <div class="carousel-item">
+              <img src="./Organization Logos/NMDC.jpg" class="d-inline-block mx-3" alt="Invitee 1"
+                style="height: 100px;">
+              <img src="./Organization Logos/RINL.png" class="d-inline-block mx-3" alt="Invitee 2"
+                style="height: 100px;">
+              <img src="./Organization Logos/Hospet Steel.jpg" class="d-inline-block mx-3" alt="Invitee 3"
+                style="height: 100px;">
+              <img src="./Organization Logos/TATA Steel.png" class="d-inline-block mx-3" alt="Invitee 4"
+                style="height: 100px;">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#inviteeCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#inviteeCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer id="contact">
     © 2025 Safety Conclave – “अरिष्ट: Towards Zero Harm”. All rights reserved.
   </footer>
-<!-- Countdown Script -->
-<script>
+
+  <!-- Countdown Script -->
+  <script>
     function countdown() {
       const eventDate = new Date("2025-08-06T09:00:00").getTime();
       const now = new Date().getTime();
       const distance = eventDate - now;
-
       if (distance < 0) {
         document.getElementById("countdown").innerHTML = "The event has started!";
         return;
       }
-
       const days = Math.floor(distance / (1000 * 60 * 60 * 24));
       const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
       document.getElementById("countdown").innerHTML =
         `Countdown: ${days}d ${hours}h ${minutes}m ${seconds}s`;
-
       setTimeout(countdown, 1000);
     }
-
     countdown();
   </script>
-<!-- JS Libraries -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>AOS.init();</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
+
 </html>
