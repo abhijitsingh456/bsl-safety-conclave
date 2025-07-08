@@ -10,22 +10,31 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans&display=swap"
     rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Playfair+Display&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./static/css/index.css">
 </head>
 
 <body>
   <!-- Hero Section -->
   <section class="hero">
-    <div class="top-right-menu">
-      <a href="#about-us">About</a>
-      <a href="#speakers">Speakers</a>
-      <a href="#schedule">Schedule</a>
-      <a href="#invitees">Invitees</a>
-      <a href="./register.html">Register</a>
-      <a href="#contact">Contact</a>
+    <div class="top-nav" id="navbar">
+      <div class="top-left-logo">
+        <!-- <img alt="SAIL Logo" class="logo" data-aos="fade-down" src="./static/images/conclave-logo.png" /> -->
+        <span class="logo-text">अरिष्ट</span>
+      </div>
+      <div class="top-right-menu">
+        <a href="#about-us">About</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#invitees">Invitees</a>
+        <!--<a href="./register.html">Register</a>-->
+        <a href="#contact">Contact</a>
+      </div>
     </div>
     <div class="container">
-      <img alt="SAIL Logo" class="logo" data-aos="fade-down" src="./static/images/organization_logos/Steel_Authority_of_India_logo_white.svg" />
+      <img alt="SAIL Logo" class="logo" data-aos="fade-down"
+        src="./static/images/organization_logos/Steel_Authority_of_India_logo_white.svg" />
       <h1 data-aos="fade-up">सेल/बोकारो स्टील प्लांट</h1>
       <h1 data-aos="fade-up">अरिष्ट: Towards Zero Harm</h1>
       <p class="lead" data-aos="fade-up" data-aos-delay="100">
@@ -37,339 +46,320 @@
       </a>
     </div>
   </section>
+  <!-- About Us Section -->
+  <section class="info-section about-bg" id="about-us">
+    <div class="container">
+      <h2 class="text-center mb-2" data-aos="fade-up" style="color: white;"><b>About Us</b></h2>
+      <div class="mt-2" data-aos="fade-right">
+        <div class="p-4 bg-light rounded shadow-sm about-text mb-4">
+          <h4 class="custom-card-title">Who We Are</h4>
+          <p>Bokaro Steel Plant (BSL), a premier unit of the Steel Authority of India Limited (SAIL),
+            stands as a testament to India's industrial prowess. Strategically located in Bokaro, Jharkhand,
+            BSL is renowned for its state-of-the-art infrastructure, diverse product range, and commitment to
+            excellence in steel production.</p>
+          <p>Conceived in the late 1950s, the Bokaro Steel Plant was established in collaboration with the former
+            Soviet Union.
+            Incorporated as a limited company in 1964, it became a part of SAIL in 1978. BSL is recognized as
+            India's
+            first 'Swadeshi'
+            steel plant, emphasizing indigenous development in equipment, materials, and know-how.</p>
+        </div>
+      </div>
+      <div data-aos="fade-left">
+        <div class="p-2 bg-light rounded shadow-sm about-text">
+          <h4 class="custom-card-title">Why "अरिष्ट"</h4>
+          <p>The integrated steel industry plays a crucial role in the economic development of any nation,
+            especially in the context of the vision of "Viksit Bharat" (Developed India).
+            However, this industry also faces several challenges, particularly in terms of maintaining safety
+            standards,
+            managing the complex production processes, and ensuring sustainability. The application of Digital
+            Innovation
+            technologies offers transformative solutions to address these challenges. The safety of workers,
+            equipment,
+            and the environment is of paramount importance in such high-risk industries.</p>
+          <p>The theme of this conclave—“Smart, Safe, and Sustainable Safety of Integrated Steel Plants with
+            Digital
+            Innovation
+            Technologies towards Viksit Bharat”—focuses on how advanced digital tools and technologies can be
+            leveraged to create smarter,
+            safer, and more sustainable steel plants. This concept aims to reduce man-machine intervention,
+            enhancing
+            operational efficiency,
+            safety protocols, and sustainability initiatives.</p>
+        </div>
+      </div>
+      <div class="event-highlights-row mt-5" data-aos="fade-up">
+        <div class="highlight-box">
+          <i class="bi bi-people-fill"></i>
+          <h5>Organized By</h5>
+          <p>SAIL Bokaro Steel Plant</p>
+        </div>
+        <div class="highlight-box">
+          <i class="bi bi-calendar-event-fill"></i>
+          <h5>Date</h5>
+          <p>06th – 07th August, 2025</p>
+        </div>
+        <div class="highlight-box">
+          <i class="bi bi-geo-alt-fill"></i>
+          <h5>Venue</h5>
+          <p>HR-L&D Centre, Bokaro Steel Plant</p>
+        </div>
+      </div>
+      <a class="scroll-down-btn about-scroll" href="#speakers">
+        <div class="scroll-circle">
+          <i class="bi bi-chevron-double-down"></i>
+        </div>
+      </a>
+    </div>
+  </section>
 
   <!-- Main Content -->
   <div class="main-content">
-    <!-- About Us Section -->
-    <section class="info-section" id="about-us">
-      <div class="container">
-        <h2 class="text-center mb-5" data-aos="fade-up">About Us</h2>
-        <div class="mt-4" data-aos="fade-right">
-          <div class="p-4 bg-light rounded shadow-sm about-text mb-4">
-            <h4 class="custom-card-title">Who We Are</h4>
-            <p>Bokaro Steel Plant (BSL), a premier unit of the Steel Authority of India Limited (SAIL),
-              stands as a testament to India's industrial prowess. Strategically located in Bokaro, Jharkhand,
-              BSL is renowned for its state-of-the-art infrastructure, diverse product range, and commitment to
-              excellence in steel production.</p>
-            <p>Conceived in the late 1950s, the Bokaro Steel Plant was established in collaboration with the former
-              Soviet Union.
-              Incorporated as a limited company in 1964, it became a part of SAIL in 1978. BSL is recognized as India's
-              first 'Swadeshi'
-              steel plant, emphasizing indigenous development in equipment, materials, and know-how.</p>
-          </div>
-        </div>
-        <div data-aos="fade-left">
-          <div class="p-4 bg-light rounded shadow-sm about-text">
-            <h4 class="custom-card-title">Why "अरिष्ट"</h4>
-            <p>The integrated steel industry plays a crucial role in the economic development of any nation,
-              especially in the context of the vision of "Viksit Bharat" (Developed India).
-              However, this industry also faces several challenges, particularly in terms of maintaining safety
-              standards,
-              managing the complex production processes, and ensuring sustainability. The application of Digital
-              Innovation
-              technologies offers transformative solutions to address these challenges. The safety of workers,
-              equipment,
-              and the environment is of paramount importance in such high-risk industries.</p>
-            <p>The theme of this conclave—“Smart, Safe, and Sustainable Safety of Integrated Steel Plants with Digital
-              Innovation
-              Technologies towards Viksit Bharat”—focuses on how advanced digital tools and technologies can be
-              leveraged to create smarter,
-              safer, and more sustainable steel plants. This concept aims to reduce man-machine intervention, enhancing
-              operational efficiency,
-              safety protocols, and sustainability initiatives.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div class="page-wrapper">
+      <div class="border-image-left"></div>
+      <div class="border-image-right"></div>
+      <div class="page-content">
 
-    <!-- Event Highlights -->
-    <section class="info-section" id="about">
-      <div class="container">
-        <h2 class="text-center mb-5" data-aos="fade-up">Event Highlights</h2>
-        <div class="row justify-content-center mt-4">
-          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="event-card">
-              <div class="event-icon"><i class="bi bi-people-fill"></i></div>
-              <h5>Organized By</h5>
-              <p>SAIL Bokaro Steel Plant</p>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="event-card">
-              <div class="event-icon"><i class="bi bi-calendar-event-fill"></i></div>
-              <h5>Date</h5>
-              <p>06th – 07th August, 2025</p>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="event-card">
-              <div class="event-icon"><i class="bi bi-geo-alt-fill"></i></div>
-              <h5>Venue</h5>
-              <p>HR-L&D Centre, Bokaro Steel Plant</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Speakers Section -->
-    <section class="speakers-section" id="speakers">
-      <div class="container" data-aos="fade-up">
-        <h2 class="text-center mb-5">Speakers</h2>
-        <div class="row">
-          <div class="col-md-4" data-aos="fade-right">
-            <div class="speaker-card">
-              <h5>Dr. Ravindra P. Bhave</h5>
-              <p>Director (Industrial Hygiene)</p>
-              <p>Head of Office/REGIONAL LABOUR INSTITUTE (Kolkata)</p>
-            </div>
-          </div>
-          <div class="col-md-4" data-aos="fade-up">
-            <div class="speaker-card">
-              <h5>Shri Jagdish</h5>
-              <p>Head (Operations & Technical)</p>
-              <p>Fire Engineering Research Laboratory, IIT (Gandhinagar)</p>
-            </div>
-          </div>
-          <div class="col-md-4" data-aos="fade-left">
-            <div class="speaker-card">
-              <h5>Shri OB Krishna</h5>
-              <p>Adani Chair Professor</p>
-              <p>Centre of Excellence in Safety Engineering and Analytics (CoE-SEA), IIT (Kharagpur)</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Schedule Section -->
-    <section class="info-section main-content" id="schedule">
-      <div class="container" data-aos="fade-up">
-        <h2 class="text-center mb-5">📅 Event Schedule</h2>
-
-        <ul class="nav nav-tabs justify-content-center mb-4" id="scheduleTabs" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="day1-tab" data-bs-toggle="tab" data-bs-target="#day1" type="button"
-              role="tab" aria-controls="day1" aria-selected="true">
-              06th August
-            </button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="day2-tab" data-bs-toggle="tab" data-bs-target="#day2" type="button" role="tab"
-              aria-controls="day2" aria-selected="false">
-              07th August
-            </button>
-          </li>
-        </ul>
-
-        <div class="tab-content" id="scheduleTabsContent">
-          <!-- Day Template Start -->
-          <div class="tab-pane fade show active" id="day1" role="tabpanel" aria-labelledby="day1-tab">
-            <div class="timeline">
-              <!-- Timeline Entry -->
-              <div class="schedule-item">
-                <span class="time">09:00 – 10:00 AM</span>
-                <div class="details">
-                  <h5>Registration & Batch Distribution</h5>
-                  <p class="text-muted"></p>
+        <!-- Speakers Section -->
+        <section class="speakers-section" id="speakers">
+          <div class="container" data-aos="fade-up">
+            <h2 class="text-center mb-5">Speakers</h2>
+            <div class="row">
+              <div class="col-md-4" data-aos="fade-right">
+                <div class="speaker-card">
+                  <img src="./static/images/speakers/lalit.jpg" class="speaker-img" alt="Shri Lalit Gabhane" />
+                  <h5>Shri Lalit Gabhane</h5>
+                  <p>Director General</p>
+                  <p>National Safety Council, Mumbai</p>
                 </div>
               </div>
-              <div class="schedule-item">
-                <span class="time">10:00 – 01:00 PM</span>
-                <div class="details">
-                  <h5>Inauguration Ceremony</h5>
-                  <ul class="list-unstyled small ps-3">
-                    <li>Welcome Speech – <em>CGM (Safety & Fire Services)</em></li>
-                    <li>Deep Lighting</li>
-                    <li>Addresses by Guests</li>
+              <div class="col-md-4" data-aos="fade-right">
+                <div class="speaker-card">
+                  <img src="./static/images/speakers/jagdish.jpg" class="speaker-img" alt="Shri Jagdish" />
+                  <h5>Shri Jagdish</h5>
+                  <p>Head (Operations & Technical)</p>
+                  <p>Fire Engineering Research Laboratory, IIT (Gandhinagar)</p>
+                </div>
+              </div>
+              <div class="col-md-4" data-aos="fade-right">
+                <div class="speaker-card">
+                  <img src="./static/images/speakers/jmaiti.png" class="speaker-img" alt="Shri OB Krishna" />
+                  <h5>Shri J Maiti</h5>
+                  <p>Chairman, Center of Excellence in Safety Engineering and Analytics (CoE-SEA)</p>
+                  <p>IIT (Kharagpur)</p>
+                </div>
+              </div>
+              <div class="col-md-4" data-aos="fade-right">
+                <div class="speaker-card">
+                  <img src="./static/images/speakers/binayak.jpg" class="speaker-img" alt="Shri Binayak Panda" />
+                  <h5>Shri Binayak Panda</h5>
+                  <p>Global Business Line HSE Manager – Metals</p>
+                  <p>ABB</p>
+                </div>
+              </div>
+              <div class="col-md-4" data-aos="fade-right">
+                <div class="speaker-card">
+                  <img src="./static/images/speakers/default.jpg" class="speaker-img" alt="Dr. Ravindra P. Bhave" />
+                  <h5>Dr. Ravindra P. Bhave</h5>
+                  <p>Director (Industrial Hygiene)</p>
+                  <p>Regional Labour Institute, Kolkata</p>
+                </div>
+              </div>
+              <div class="col-md-4" data-aos="fade-right">
+                <div class="speaker-card">
+                  <img src="./static/images/speakers/default.jpg" class="speaker-img" alt="Shri J.K Anand" />
+                  <h5>Shri J.K Anand</h5>
+                  <p>Chairman & Managing Director</p>
+                  <p>CORE EHS SOLUTIONS PVT. LTD</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Schedule Section -->
+        <section class="info-section main-content" id="schedule">
+          <div class="container" data-aos="fade-up">
+            <h2 class="text-center mb-5">📅 Event Schedule</h2>
+
+            <ul class="nav nav-tabs justify-content-center mb-4" id="scheduleTabs" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="day1-tab" data-bs-toggle="tab" data-bs-target="#day1" type="button"
+                  role="tab" aria-controls="day1" aria-selected="true">
+                  06th August
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="day2-tab" data-bs-toggle="tab" data-bs-target="#day2" type="button"
+                  role="tab" aria-controls="day2" aria-selected="false">
+                  07th August
+                </button>
+              </li>
+            </ul>
+            <!--DAY TEMPLATE GOES HERE-->
+            <h3 class="text-center mb-5"><i>Coming Soon</i></h3>
+          </div>
+        </section>
+
+        <!-- Invitees Section -->
+        <section class="info-section" id="invitees">
+          <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Our Esteemed Invitees</h2>
+            <div id="inviteeCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                  <img src="./static/images/organization_logos/SAIL.png" class="d-inline-block mx-3" alt="Invitee 3"
+                    style="height: 100px;">
+                  <img src="./static/images/organization_logos/AMNS.jpg" class="d-inline-block mx-3" alt="Invitee 1"
+                    style="height: 100px;">
+                  <img src="./static/images/organization_logos/Bhushan Power & Steel.png" class="d-inline-block mx-3"
+                    alt="Invitee 2" style="height: 100px;">
+                  <img src="./static/images/organization_logos/JSW.png" class="d-inline-block mx-3" alt="Invitee 4"
+                    style="height: 100px;">
+                  <img src="./static/images/organization_logos/Mecon.png" class="d-inline-block mx-3" alt="Invitee 5"
+                    style="height: 100px;">
+                  <img src="./static/images/organization_logos/NMDC.jpg" class="d-inline-block mx-3" alt="Invitee 1"
+                    style="height: 100px;">
+                </div>
+                <div class="carousel-item">
+                  <img src="./static/images/organization_logos/RINL.png" class="d-inline-block mx-3" alt="Invitee 2"
+                    style="height: 100px;">
+                  <img src="./static/images/organization_logos/Hospet Steel.jpg" class="d-inline-block mx-3"
+                    alt="Invitee 3" style="height: 100px;">
+                  <img src="./static/images/organization_logos/TATA Steel.png" class="d-inline-block mx-3"
+                    alt="Invitee 4" style="height: 100px;">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#inviteeCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#inviteeCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+        </section>
+      </div> <!-- close page-content -->
+    </div> <!-- close page-wrapper -->
+  </div> <!-- close main-content -->
+
+  <section class="info-section contact-section" id="contact main-content">
+    <div class="container" data-aos="fade-up">
+      <div class="page-wrapper">
+        <div class="border-image-left"></div>
+        <div class="border-image-right"></div>
+        <div class="page-content">
+          <div class="container">
+            <h2 class="text-center mb-4" data-aos="fade-up">Organizing Committees</h2>
+            <p class="text-center mb-5 text-muted" data-aos="fade-up" style="font-size: 1.1rem;">
+              For any query contact us at
+              <a href="mailto:bsl.safetyconclave@sail.in" class="text-primary fw-semibold">
+                bsl.safetyconclave@sail.in
+              </a>
+            </p>
+            <p class="text-center mb-5 text-muted" data-aos="fade-up" style="font-size: 1.1rem;"><b>Chairman of the
+                Conclave - Shri B.K Sartape, CGM (Safety & Fire Services), 8986876057</b></p>
+            <div class="committee-carousel d-flex overflow-auto pb-4 px-2" style="scroll-snap-type: x mandatory;">
+              <div class="committee-card flex-shrink-0" data-aos="fade-up">
+                <div class="committee-header bg-gradient-warning text-dark">
+                  <i class="bi bi-people-fill me-2"></i> Coordinating Committee
+                </div>
+                <div class="committee-body">
+                  <ul>
+                    <li><strong>Anand Rautela</strong> – GM I/c (Safety & Fire Services), Contact: 8986872122</li>
+                    <li><strong>Kumar Rajnish</strong> – DGM (Safety & Fire Services), Contact: 8986872129</li>
+                    <li><strong>A D Ramteke</strong> – Dy. Manager (Fire Services), Contact: 8986876046</li>
                   </ul>
                 </div>
               </div>
-              <div class="schedule-item break">
-                <span class="time">11:00 – 11:30 AM</span>
-                <div class="details">
-                  <h5>High Tea ☕</h5>
+              <div class="committee-card flex-shrink-0" data-aos="fade-up">
+                <div class="committee-header bg-gradient-warning text-dark">
+                  <i class="bi bi-cup-hot-fill me-2"></i> Hospitality Committee
+                </div>
+                <div class="committee-body">
+                  <ul>
+                    <li><strong>Om Prakash Agrawal</strong> – GM (SMS-I), Contact: 8986871955</li>
+                    <li><strong>Bijay K Mohanty</strong> – GM (CRM-III), Contact: 8986871615</li>
+                    <li><strong>Bagan Murmu</strong> – Sr. Manager (CO&CC), Contact: 8986874560</li>
+                    <li><strong>Shashi Suman</strong> – Asstt. Manager (Safety), Contact: 8986876267</li>
+                  </ul>
                 </div>
               </div>
-              <div class="schedule-item">
-                <span class="time">11:30 – 12:00 Noon</span>
-                <div class="details">
-                  <h5>Session I</h5>
-                  <div class="text-muted">Topic: Enhancing Day-to-Day Safety in Integrated Steel Plants through Digital Innovation Technologies</div>
-                  <div class="text-muted">Speaker: </div>
+              <div class="committee-card flex-shrink-0" data-aos="fade-up">
+                <div class="committee-header bg-gradient-warning text-dark">
+                  <i class="bi bi-building-fill-gear me-2"></i> Venue Committee
+                </div>
+                <div class="committee-body">
+                  <ul>
+                    <li><strong>Rahul Tiwari</strong> – GM (SMS-II), Contact: 8986870753</li>
+                    <li><strong>S Mahto</strong> – AGM (Safety), Contact: 8986871198</li>
+                    <li><strong>Ravi Ranjan</strong> – Asstt. Manager (Safety), Contact: 8986876269</li>
+                  </ul>
                 </div>
               </div>
-              <div class="schedule-item">
-                <span class="time">12:00 – 12:30 PM</span>
-                <div class="details">
-                  <h5>Presentation and deliberation - 1</h5>
-                  <p class="text-muted">SAIL Bokaro Steel Plant</p>
+              <div class="committee-card flex-shrink-0" data-aos="fade-up">
+                <div class="committee-header bg-gradient-warning text-dark">
+                  <i class="bi bi-person-check-fill me-2"></i> Reception & Registration
+                </div>
+                <div class="committee-body">
+                  <ul>
+                    <li><strong>Manoj Kumar</strong> – AGM (Safety), Contact: 8986872118</li>
+                    <li><strong>Nehal Paswan</strong> – AGM (Safety), Contact: 8986872119</li>
+                    <li><strong>Md Imran</strong> – Sr. Manager (TBS), Contact: 8986874609</li>
+                    <li><strong>Prashant Nirwal</strong> – Dy. Manager (Safety), Contact: 8986876049</li>
+                  </ul>
                 </div>
               </div>
-              <div class="schedule-item">
-                <span class="time">12:30 – 01:00 PM</span>
-                <div class="details">
-                  <h5>Exhibition Visit</h5>
+              <div class="committee-card flex-shrink-0" data-aos="fade-up">
+                <div class="committee-header bg-gradient-warning text-dark">
+                  <i class="bi bi-mic-fill me-2"></i> Cultural & Publicity
+                </div>
+                <div class="committee-body">
+                  <ul>
+                    <li><strong>Indraneel Mukherjee</strong> – GM (SP), Contact: 8986874609</li>
+                    <li><strong>Kumar Rajnish</strong> – AGM (Fire Services), Contact: 8986872129</li>
+                    <li><strong>A D Ramteke</strong> – Dy. Manager (Fire Services), Contact: 8986876046</li>
+                  </ul>
                 </div>
               </div>
-              <div class="schedule-item break">
-                <span class="time">01:00 – 02:30 PM</span>
-                <div class="details">
-                  <h5>Lunch Break 🍽️</h5>
+              <div class="committee-card flex-shrink-0" data-aos="fade-up">
+                <div class="committee-header bg-gradient-warning text-dark">
+                  <i class="bi bi-journal-code me-2"></i> Technical & Publication
+                </div>
+                <div class="committee-body">
+                  <ul>
+                    <li><strong>Vikas Gupta</strong> – GM (Safety), Contact: 8986872784</li>
+                    <li><strong>Jyoti</strong> – AGM (CED), Contact: 8986872249</li>
+                    <li><strong>Subhasish Kispotta</strong> – AGM (GU), Contact: 8986871792</li>
+                    <li><strong>Himanshu Sharma</strong> – Asstt. Manager (Safety), Contact: 8986876268</li>
+                  </ul>
                 </div>
               </div>
-              <div class="schedule-item">
-                <span class="time">02:30 – 03:00 PM</span>
-                <div class="details">
-                  <h5>Session II</h5>
-                  <div class="text-muted">Topic: </div>
-                  <div class="text-muted">Speaker: </div>
+              <div class="committee-card flex-shrink-0" data-aos="fade-up">
+                <div class="committee-header bg-gradient-warning text-dark">
+                  <i class="bi bi-box-fill me-2"></i> Resource & Procurement
+                </div>
+                <div class="committee-body">
+                  <ul>
+                    <li><strong>Anand Rautela</strong> – GM I/c (S&FS), Contact: 8986872122</li>
+                    <li><strong>Kumar Rajnish</strong> – DGM (Safety & Fire Services), Contact: 8986872129</li>
+                    <li><strong>A D Ramteke</strong> – Dy. Manager (Fire Services), Contact: 8986876046</li>
+                    <li><strong>Amit Badole</strong> – Asstt. Manager (Safety), Contact: 8986876256</li>
+                  </ul>
                 </div>
               </div>
-              <div class="schedule-item">
-                <span class="time">03:00 – 03:30 PM</span>
-                <div class="details">
-                  <h5>Presentation and deliberation - 2</h5>
-                  <p class="text-muted">M/s TATA Steel</p>
-                </div>
-              </div>
-              <div class="schedule-item">
-                <span class="time">03:30 – 04:00 PM</span>
-                <div class="details">
-                  <h5>Session III</h5>
-                  <div class="text-muted">Topic: </div>
-                  <div class="text-muted">Speaker: </div>
-                </div>
-              </div>
-              <div class="schedule-item break">
-                <span class="time">04:00 – 04:30 PM</span>
-                <div class="details">
-                  <h5>Tea/ Coffee Break</h5>
-                </div>
-              </div>
-              <div class="schedule-item">
-                <span class="time">04:30 – 05:00 PM</span>
-                <div class="details">
-                  <h5>Presentation and deliberation - 3</h5>
-                  <p class="text-muted">M/s Arcelor Mittal Nippon Steel</p>
-                </div>
-              </div>
-              <div class="schedule-item">
-                <span class="time">05:00 – 05:30 PM</span>
-                <div class="details">
-                  <h5>Presentation and deliberation - 4</h5>
-                  <p class="text-muted">M/s JSW Steel Plant</p>
-                </div>
-              </div>
-              <div class="schedule-item break">
-                <span class="time">05:30 – 06:00 PM</span>
-                <div class="details">
-                  <h5>Closing & High Tea</h5>
-                </div>
-              </div>
-              <div class="schedule-item highlight">
-                <span class="time">07:00 – 10:00 PM</span>
-                <div class="details">
-                  <h5>Cultural Night 🎭</h5>
-                  <p class="text-muted"></p>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <!-- Repeat similar structure for Day 2 -->
-          <div class="tab-pane fade" id="day2" role="tabpanel" aria-labelledby="day2-tab">
-            <div class="timeline">
-              <div class="schedule-item">
-                <span class="time">09:00 – 09:30 AM</span>
-                <div class="details">
-                  <h5>Registration</h5>
-                </div>
-              </div>
-              <div class="schedule-item">
-                <span class="time">09:30 – 10:00 AM</span>
-                <div class="details">
-                  <h5>Session IV</h5>
-                  <div class="text-muted">Topic: </div>
-                  <div class="text-muted">Speaker: </div>                  
-                </div>
-              </div>
-              <div class="schedule-item">
-                <span class="time">10:00 – 10:30 AM</span>
-                <div class="details">
-                  <h5>Presentation and deliberation - 4</h5>
-                  <p class="text-muted">Project Safety – M/s M N DASTUR & CO</p>
-                </div>
-              </div>
-              <div class="schedule-item">
-                <span class="time">10:30 – 11:00 AM</span>
-                <div class="details">
-                  <h5>Program – मन की बात</h5>
-                </div>
-              </div>
-              <div class="schedule-item break">
-                <span class="time">11:00 – 11:30 AM</span>
-                <div class="details">
-                  <h5>High Tea</h5>
-                </div>
-              </div>
-              <div class="schedule-item highlight">
-                <span class="time">11:30 AM – 01:00 PM</span>
-                <div class="details">
-                  <h5>Closing Session & Memento Distribution 🎁</h5>
-                </div>
-              </div>
-              <div class="schedule-item break">
-                <span class="time">01:00 – 02:30 PM</span>
-                <div class="details">
-                  <h5>Lunch Break</h5>
-                </div>
-              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Invitees Section -->
-    <section class="info-section" id="invitees">
-      <div class="container">
-        <h2 class="text-center mb-5" data-aos="fade-up">Our Esteemed Invitees</h2>
-        <div id="inviteeCarousel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner text-center">
-            <div class="carousel-item active">
-              <img src="./static/images/organization_logos/SAIL.png" class="d-inline-block mx-3" alt="Invitee 3"
-                style="height: 100px;">
-              <img src="./static/images/organization_logos/AMNS.jpg" class="d-inline-block mx-3" alt="Invitee 1"
-                style="height: 100px;">
-              <img src="./static/images/organization_logos/Bhushan Power & Steel.png" class="d-inline-block mx-3" alt="Invitee 2"
-                style="height: 100px;">
-              <img src="./static/images/organization_logos/JSW.png" class="d-inline-block mx-3" alt="Invitee 4"
-                style="height: 100px;">
-              <img src="./static/images/organization_logos/Mecon.png" class="d-inline-block mx-3" alt="Invitee 5"
-                style="height: 100px;">
-            </div>
-            <div class="carousel-item">
-              <img src="./static/images/organization_logos/NMDC.jpg" class="d-inline-block mx-3" alt="Invitee 1"
-                style="height: 100px;">
-              <img src="./static/images/organization_logos/RINL.png" class="d-inline-block mx-3" alt="Invitee 2"
-                style="height: 100px;">
-              <img src="./static/images/organization_logos/Hospet Steel.jpg" class="d-inline-block mx-3" alt="Invitee 3"
-                style="height: 100px;">
-              <img src="./static/images/organization_logos/TATA Steel.png" class="d-inline-block mx-3" alt="Invitee 4"
-                style="height: 100px;">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#inviteeCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#inviteeCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-          </button>
-        </div>
-      </div>
-    </section>
-  </div>
+
+
 
   <!-- Footer -->
   <footer id="contact">
