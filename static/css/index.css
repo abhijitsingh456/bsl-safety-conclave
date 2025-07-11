@@ -23,7 +23,7 @@ h5 {
 .hero {
   position: relative;
   height: 90vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url('../images/main_gate.jpg') center/cover no-repeat;
   color: white;
   text-align: center;
@@ -39,8 +39,36 @@ h5 {
   /* Optional: adjust based on header height */
 }
 
+.hero-theme {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 15px;
+  text-align: center;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: nowrap;
+}
+
+.hero-date-box {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 500;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 0 auto 20px;
+}
+
 .about-bg {
-  background: url('../images/image\ \(1\).jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('../images/image\ \(1\).jpg') center/cover no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
@@ -56,6 +84,20 @@ h5 {
   /* Classy serif font */
 }
 
+.download-brochure-box{
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 500;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 0 auto 20px;
+}
 
 .event-highlights-row {
   display: flex;
@@ -63,11 +105,8 @@ h5 {
   gap: 40px;
   flex-wrap: wrap;
   margin-top: 30px;
-  margin-left: 49px;
+  margin-left: 70px;
   /* or 3rem, etc. */
-  /* Add this line to shift slightly right */
-  transform: translateX(100x);
-  /* Adjust this value as needed */
 }
 
 .highlight-box {
@@ -159,6 +198,17 @@ h5 {
   z-index: 1000;
   backdrop-filter: blur(8px);
 }
+
+.top-center-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.top-center-logo img {
+  height: 60px;
+}
 /*
 body {
   padding-top: 80px;
@@ -205,7 +255,7 @@ body {
 
 .timer {
   font-size: 1.5rem;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .scroll-down-btn {
